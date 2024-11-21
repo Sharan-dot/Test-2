@@ -10,9 +10,16 @@ Create green space equal to the current font size around those labels. -->
             color: red;
             background: white;
         }
+
+        /* CSS rule for labels with class green_label */
+        .green_label {
+            background-color: green;
+            color: white; /* Optional: Ensures text is readable on a green background */
+            padding: 1em; /* Green space equal to the current font size */
+            display: inline-block; /* Ensures the padding applies properly */
+        }
     </style>
 </head>
-
 
 <body>
     <h1 class="red-heading">This text is in red</h1>
@@ -30,10 +37,7 @@ Create green space equal to the current font size around those labels. -->
         <p>
             <button type="submit">Submit</button>
         </p>
-
-
     </form>
 </body>
-
 
 </html>
